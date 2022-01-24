@@ -10,8 +10,7 @@ function App() {
 
   return (
     <View style={{flex: 1}}>
-      {/* {isVideoEnd ? <Card /> : <SplashVideo SetIsVideoEnd={SetIsVideoEnd} />} */}
-      <Card />
+      {isVideoEnd ? <Card /> : <SplashVideo SetIsVideoEnd={SetIsVideoEnd} />}
     </View>
   );
 }
